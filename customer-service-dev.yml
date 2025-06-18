@@ -1,0 +1,17 @@
+global:
+  message: welcome to Customer service Dev environment
+server:
+  port: 8082
+message: hello from dec!
+spring:
+  datasource:      
+   datasource:
+    url: jdbc:mysql://localhost:3306/cake_dev
+    username: root
+    password: komal
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
