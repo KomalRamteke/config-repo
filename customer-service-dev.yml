@@ -6,7 +6,7 @@ message: hello from dec!
 spring:
   datasource:      
    datasource:
-    url: jdbc:mysql://localhost:3306/cake_dev
+    url: jdbc:mysql://localhost:3306/cake
     username: root
     password: komal
     driver-class-name: com.mysql.cj.jdbc.Driver
